@@ -4,7 +4,7 @@ body
     height: 100vh;
     border: 2px solid red;
 }
-.anim
+.content
 {
-    height: 40vh;
+    height: 20%;
 }
