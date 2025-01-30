@@ -1,0 +1,39 @@
+@keyframes side
+{
+    0%
+    {
+        background-image: url("assets/images/bg.jpg");
+        transform: translateX(100%);
+    }
+    14.2857142857%
+    {
+        background-image: url("assets/images/a-3d-animation-of-a-descent-into-the-deep-sea-the--r8D7flmfRf69imwHsEfvUA-DeEyFFEwRwixnkgNrvMSww.jpeg");
+        transform: translateX(0);
+    }
+    28.5714285714%
+    {
+        background-image: url("assets/images/pexels-neosiam-828701.jpg");
+        transform: translateX(0);
+    }
+    42.8571428571%
+    {
+        background-image: url("assets/images/pexels-podnar2018-1424246.jpg");
+        transform: translateX(0);
+    }
+    57.1428571429%
+    {
+        background-image: url("assets/images/a-3d-animation-of-a-descent-into-the-deep-sea-the--r8D7flmfRf69imwHsEfvUA-DeEyFFEwRwixnkgNrvMSww.jpeg");
+    }
+    71.4285714286%
+    {
+        background-image: url("assets/images/a-3d-animation-of-a-descent-into-the-deep-sea-the--r8D7flmfRf69imwHsEfvUA-DeEyFFEwRwixnkgNrvMSww.jpeg");
+    }
+    85.7142857143%
+    {
+        background-image: url("assets/images/a-3d-animation-of-a-descent-into-the-deep-sea-the--r8D7flmfRf69imwHsEfvUA-DeEyFFEwRwixnkgNrvMSww.jpeg");
+    }
+    100%
+    {
+        background-image: url("assets/images/a-3d-animation-of-a-descent-into-the-deep-sea-the--r8D7flmfRf69imwHsEfvUA-DeEyFFEwRwixnkgNrvMSww.jpeg");
+    }
+}
