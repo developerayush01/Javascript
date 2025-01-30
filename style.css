@@ -20,7 +20,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
-  font-size: clamp(5vw, 5vw, 8rem);
 }
 .header::after {
   content: "";
@@ -39,18 +38,15 @@ header {
   flex-wrap: wrap;
   margin-bottom: auto;
   background-color: transparent;
-  flex-shrink: 1;
   z-index: 1;
-  font-size: clamp(0.5vw, 1vw, 1vw);
 }
 .logo {
   background-image: url("assets/images/logo.svg");
   background-repeat: no-repeat;
-  display: flex;
   background-size: contain;
   background-position: center;
-  min-width: 7em;
-  height: 80%;
+  width: 10%;
+  height: 100%;
 }
 .sign {
   height: 100%;
@@ -68,8 +64,8 @@ header {
 .english,
 .signin {
   height: fit-content;
-  font-size: clamp(1vw, 1.5vw, 2vw);
-  padding: clamp(0.5rem, 1vw, 1rem);
+  font-size: 1rem;
+  padding: 1rem;
   text-align: center;
   font-weight: bold;
   border: 1px solid grey;
@@ -97,38 +93,66 @@ header {
   background-color: rgb(216, 49, 49);
   border-radius: 10px;
 }
+.t1
+{
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100%;
+}
 .two
 {
   display: flex;
+  flex-grow: 1;
   flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 5%;
+    gap: 1%;
     max-width: 100%;
     box-sizing: border-box;
-    border: 1px solid red;
+    border-top: 3px solid grey;
     background-color: #000000;
     margin: auto;
     color: white;
     align-items: center;
 
 }
+.two1
+{
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+    max-width: 100%;
+    box-sizing: border-box;
+    border-top: 3px solid grey;
+    background-color: #000000;
+    margin: auto;
+    color: white;
+    align-items: center;
+  border: none;
+}
 .TV
 {
     background-color: transparent;
-    min-width: 40%;
-    max-width: 100%;
+    flex-basis: 60%;
+    min-width: 60%;
+    margin: auto;
     color: white;
 }
 .tvimg {
-  min-width: 40%;
+  
+  min-width: 30%;
   display: flex;
-  border: 5px solid red;
   justify-content: center;
   height: auto;
 }
 .tvimg img {
-  width: 50%;
-  height: 50%;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
