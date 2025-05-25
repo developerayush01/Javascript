@@ -41,6 +41,9 @@ header {
   background-color: transparent;
   z-index: 1;
 }
+.navbar{
+  padding: 0;
+}
 .logo {
   background-image: url("assets/images/logo.svg");
   background-repeat: no-repeat;
