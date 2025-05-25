@@ -33,16 +33,12 @@ body {
 }
 header {
   height: 15%;
-  width: 60vw;
+  width: 60%;
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
   margin-bottom: auto;
   background-color: transparent;
   z-index: 1;
-}
-.navbar{
-  padding: 0;
 }
 .logo {
   background-image: url("assets/images/logo.svg");
@@ -55,9 +51,7 @@ header {
 }
 .sign {
   height: 100%;
-  min-width: 15%;
   display: flex;
-  flex-wrap: wrap;
   flex-shrink: 1;
 }
 .login
@@ -69,7 +63,6 @@ header {
 .signin {
   height: fit-content;
   font-size: 1rem;
-  padding: 1rem;
   text-align: center;
   font-weight: bold;
   border: 1px solid grey;
@@ -104,6 +97,19 @@ header {
   flex-wrap: wrap;
   background-color: rgb(216, 49, 49);
   border-radius: 10px;
+}
+.src{
+  position: relative;
+  z-index: 2;
+  width: 555px;
+}
+.play{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 555px;
+  overflow: hidden;
 }
 .t1
 {
